@@ -1,0 +1,55 @@
+:root 
+{
+    --col1: rgb(245, 231, 139);
+    --col2: rgb(247, 196, 241);
+    --col3: rgb(221, 247, 196);
+    --col4: rgb(196, 232, 247);
+    --col5: rgb(247, 196, 196);
+}
+
+body 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+div{
+    margin: 10px;
+    text-align: center;
+}
+.box1 
+{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col1);
+}
+.box2 
+{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col2);
+}
+.box3 
+{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col3);
+}
+.box4 
+{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col4);
+}
+.box5 
+{
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col5);
+}
